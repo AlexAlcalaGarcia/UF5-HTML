@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari 1 d'enregistrament</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1>Formulari d'enregistrament</h1>   
+            <hr width="56%" align="left">
+            <p>Nom: <input type="text" name="nom" maxlength="50"></p>
+            <p>Cognom: <input type="text" name="cognom" maxlength="50"></p>
+            <hr width="56%" align="left">
+            <h3>Sexe:</h3>
+            <p>Home:<input type="radio" name="sexe" value="home"></p>
+            <p>Dona:<input type="radio" name="sexe" value="dona"></p>
+            <hr width="56%" align="left">
+            <p>Correu electrònic: <input type="email" required="" name="email"></p>
+            <hr width="56%" align="left">
+            <p>Vull rebre informació sobre novetats i ofertes <input type="checkbox" name="novetats" checked></p>
+            <p>Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD <input type="checkbox" name="rgpd"></p>
+            <hr width="56%" align="left">
+            <p>
+                Població:   <select name="població">
+                                <option value="arbucies">Arbúcies</option>
+                                <option value="badalona">Badalona</option>
+                                <option value="barcelona">Barcelona</option>
+                                <option value="girona">Girona</option>
+                                <option value="vilassar_de_mar">Vilassar de mar</option>
+                            </select>
+            </p>
+            <p>Descripció:</p>
+            <p><textarea></textarea></p>
+            <hr width="56%" align="left">
+            <p><button type="submit" formmethod="get" formaction="">Enviar</button></p>
+        </fieldset>
+    </form>
+</body>
+</html>
