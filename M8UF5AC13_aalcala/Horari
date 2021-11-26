@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <title>Horari</title>
+    <link rel="icon" href="img/Horari_foto.ico">
+</head>
+<body>
+    <table border="1" cellpadding="6" cellspacing="1" width="80%" align="center">
+        <tr>
+            <th align="center" colspan="6" bgcolor="#9C9C9C">EL MEU HORARI EN TEXT</th>
+        </tr>
+        <tr>
+            <th align="center" bgcolor="#9C9C9C">Hora</th>
+            <td align="center" bgcolor="#9C9C9C">Dilluns</td>
+            <td align="center" bgcolor="#9C9C9C">Dimarts</td>
+            <td align="center" bgcolor="#9C9C9C">Dimecres</td>
+            <td align="center" bgcolor="#9C9C9C">Dijous</td>
+            <td align="center" bgcolor="#9C9C9C">Divendres</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>15:30</p>
+                <p>16:25</p>
+            </td>
+            <td bgcolor="#E3E4E5">&nbsp;</td>
+            <td rowspan="2" align="center" bgcolor="#ff7c7c">M08</td>
+            <td bgcolor="#E3E4E5">&nbsp;</td>
+            <td align="center" bgcolor="#ff7c7c">M08</td>
+            <td align="center" rowspan="2" bgcolor="#ff7c7c">M08</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>16:25</p>
+                <p>17:20</p>
+            </td>
+            <td rowspan="2" align="center" bgcolor="powderblue">M06</td>
+            <td align="center" bgcolor="#ff75fe">M11</td>
+            <td align="center" rowspan="2" bgcolor="#fde384">M10</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>17:20</p>
+                <p>18:15</p>
+            </td>
+            <td align="center" bgcolor="powderblue">M06</td>
+            <td align="center" bgcolor="#E3E4E5">TUT</td>
+            <td align="center" bgcolor="#ff75fe">M11</td>
+        </tr>
+        <tr>
+            <td colspan="6" align="center" bgcolor="#9C9C9C">Pati</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>18:40</p>
+                <p>19:35</p>
+            </td>
+            <td align="center" rowspan="3" bgcolor="#8edc6a">M07</td>
+            <td align="center" rowspan="2" bgcolor="powderblue">M06</td>
+            <td align="center" rowspan="2" bgcolor="#ff7c7c">M08</td>
+            <td align="center" rowspan="3" bgcolor="#8edc6a">M07</td>
+            <td align="center" bgcolor="#ff75fe">M11</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>19:35</p>
+                <p>20:30</p>
+            </td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>20:30</p>
+                <p>21:25</p>
+            </td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table border="1" cellpadding="6" cellspacing="1" width="80%" align="center">
+        <tr>
+            <th align="center" colspan="6" bgcolor="#9C9C9C">EL MEU HORARI AMB IMATGES</th>
+        </tr>
+        <tr>
+            <th align="center" bgcolor="#9C9C9C">Hora</th>
+            <td align="center" bgcolor="#9C9C9C">Dilluns</td>
+            <td align="center" bgcolor="#9C9C9C">Dimarts</td>
+            <td align="center" bgcolor="#9C9C9C">Dimecres</td>
+            <td align="center" bgcolor="#9C9C9C">Dijous</td>
+            <td align="center" bgcolor="#9C9C9C">Divendres</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>15:30</p>
+                <p>16:25</p>
+            </td>
+            <td bgcolor="#E3E4E5">&nbsp;</td>
+            <td rowspan="2" align="center" bgcolor="#ff7c7c"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web" target="_blanc"><img src="img/aplicaciones_web.png" width="80px" height="80px" alt="Aplicacions web(M08)"></a></td>
+            <td bgcolor="#E3E4E5">&nbsp;</td>
+            <td align="center" bgcolor="#ff7c7c"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web" target="_blanc"><img src="img/aplicaciones_web.png" width="80px" height="80px" alt="Apliacions web (M08)"></a></td>
+            <td align="center" rowspan="2" bgcolor="#ff7c7c"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web" target="_blanc"><img src="img/aplicaciones_web.png" width="80px" height="80px" alt="Aplicacions web(M08)"></a></td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>16:25</p>
+                <p>17:20</p>
+            </td>
+            <td rowspan="2" align="center" bgcolor="powderblue"><a href="https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" target="_blanc"><img src="img/Seguridad_Info.png" width="80px" height="80px" alt="Seguridad informàtica(M06)"></a></td>
+            <td align="center" bgcolor="#ff75fe"><a href="https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s" target="_blanc"><img src="img/Anglés.png" width="80px" height="80px" alt="Anglès(M11)"></a></td>
+            <td align="center" rowspan="2" bgcolor="#fde384"><a href="https://en.wikipedia.org/wiki/EIE" target="_blanc"><img src="img/Logotipo_EIE.png" width="80px" height="80px" alt="EIE(M10)"></a></td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>17:20</p>
+                <p>18:15</p>
+            </td>
+            <td align="center" bgcolor="powderblue"><a href="https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" target="_blanc"><img src="img/Seguridad_Info.png" width="80px" height="80px" alt="Seguridad informàtica(M06)"></a></td>
+            <td align="center" bgcolor="#E3E4E5"><a href="https://ca.wikipedia.org/wiki/Tutor" target="_blanc"><img src="img/Tutoria.png" width="80px" height="80px" alt="Tutoria"></a></td>
+            <td align="center" bgcolor="#ff75fe"><a href="https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s" target="_blanc"><img src="img/Anglés.png" width="80px" height="80px" alt="Anglès(M11)"></a></td>
+        </tr>
+        <tr>
+            <td colspan="6" align="center" bgcolor="#9C9C9C">Pati</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>18:40</p>
+                <p>19:35</p>
+            </td>
+            <td align="center" rowspan="3" bgcolor="#8edc6a"><a href="https://ca.wikipedia.org/wiki/Servei_de_xarxa" target="_blanc"><img src="img/Serveix_en_xarxa.png" width="80px" height="80px" alt="Serveis de xarxa(M07)"></a></td>
+            <td align="center" rowspan="2" bgcolor="powderblue"><a href="https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" target="_blanc"><img src="img/Seguridad_Info.png" width="80px" height="80px" alt="Seguridad informàtica(M06)"></a></td>
+            <td align="center" rowspan="2" bgcolor="#ff7c7c"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web" target="_blanc"><img src="img/aplicaciones_web.png" width="80px" height="80px" alt="Aplicacions web(M08)"></a></td>
+            <td align="center" rowspan="3" bgcolor="#8edc6a"><a href="https://ca.wikipedia.org/wiki/Servei_de_xarxa" target="_blanc"><img src="img/Serveix_en_xarxa.png" width="80px" height="80px" alt="Serveis de xarxa(M07)"></a></td>
+            <td align="center" bgcolor="#ff75fe"><a href="https://es.wikipedia.org/wiki/Idioma_ingl%C3%A9s" target="_blanc"><img src="img/Anglés.png" width="80px" height="80px" alt="Anglès(M11)"></a> </td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>19:35</p>
+                <p>20:30</p>
+            </td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%" align="center" bgcolor="#9C9C9C">
+                <p>20:30</p>
+                <p>21:25</p>
+            </td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+            <td align="center" bgcolor="#E3E4E5">&nbsp;</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

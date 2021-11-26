@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari d'enviament</title>
+    <script type="text/javascript">
+        function validar(){
+            var psswd=document.getElementById("psswd").value;
+            var confpsswd=document.getElementById("confpsswd").value;
+            if(psswd==confpsswd){
+                return true;
+            }
+            else{
+                alert("No coincideix, apren a escriure!");
+                return false;
+            }
+        }
+        </script>
+</head>
+<body  style="font-family:Verdana, Geneva, Tahoma, sans-serif">
+    <form method="post"="mailto:alex.alcala@inslapineda.cat" onsubmit="return validar();">
+    <fieldset>
+        <table width="580px" cellspacing="0" align="center"><hidden id="id"></hidden>
+            <tr>
+                <td bgcolor="306090" colspan="2"><p style="color:white;">Enviar missatge<img align="right" src="img/gb_reload_s.gif"></p></td>
+            </tr>
+            <tr>
+                <td width="50%" bgcolor="#EFEFEF" align="right">Nom: <input type="text" name="nom"></td>
+                <td bgcolor="#EFEFEF" rowspan="2">Usuari: <input type="text" name="nick" maxlength="8" required></td>
+            </tr>
+            <tr>
+                <td align="right" bgcolor="#EFEFEF">E-Mail: <input type="email" name="email"></td>
+                <td bgcolor="#EFEFEF"></td>
+            </tr>
+            <tr>
+                <td align="right" bgcolor="#EFEFEF">Arxiu: <input type="text" name="arxiu"></td>
+                <td bgcolor="#EFEFEF"><input type="file" size="4000" name="entregaarxiu"></td>
+            </tr>
+            <tr>
+                <td align="right" bgcolor="#EFEFEF">Imatge: <input type="text" name="imatge"></td>
+                <td bgcolor="#EFEFEF"><input type="file" size="4000" name="imatge"></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" bgcolor="#EFEFEF">El tamany de l'arxiu i la imatge no pot excedir els 4 KBytes</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" bgcolor="#EFEFEF">Contraseña: <input type="password" id="psswd" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" bgcolor="#EFEFEF">Repeteix la contraseña: <input type="password" id="confpsswd" required></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" bgcolor="#EFEFEF">Requereixo resposta: <input type="radio" name="resposta">Si<input type="radio" name="resposta">No</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#EFEFEF"><input type="checkbox" name="jocs" value="Roblox">Roblox</td>   
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#EFEFEF"><input type="checkbox" name="jocs" value="Minecraft">Minecraft 2</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#EFEFEF"><input type="checkbox" name="jocs" value="Naruto_shipuden_ultimate_ninja_storm_4_:_road_to_boruto">Naruto shipuden ultimate ninja storm 4: road to boruto</td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#EFEFEF"><input type="checkbox" name="jocs" value="Mineirinho_Ultra_adventures">Mineirinho Ultra adventures 4</td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor="#EFEFEF">Missatge</th>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" bgcolor="#EFEFEF"><textarea rows="5" cols="45"></textarea></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" bgcolor="#EFEFEF"><input type="submit" value="Enviar" name="enviar" formmethod="get"> <input type="reset" value="Esborrar"></td> 
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
